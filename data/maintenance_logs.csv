@@ -1,0 +1,201 @@
+machine_id,machine_type,production_line,date,technician,technician_note,issue_type,downtime_minutes,downtime_cost_inr,action_taken,parts_replaced,parts_cost_inr,labor_cost_inr,total_cost_inr,criticality,shift
+M1,CNC Machine,Production-A,2025-12-22 03:49,Priya Patel,Coupling misalignment corrected. Issue again.,mechanical,125,93750,temporary_fix,seal,1500,2018,97268,High,Night
+M1,CNC Machine,Production-A,2025-12-22 03:49,Rajesh Kumar,Vibration level increasing. Bearing replacement needed. Issue again.,vibration,67,50250,monitoring,motor,45000,1692,96942,High,Night
+M3,Lathe Machine,Production-B,2025-12-22 10:49,Ankit Verma,Motor hotter than normal. Cooling system checked.,overheating,102,59500,part_replacement,pump,28000,1058,88558,High,Morning
+M7,Hydraulic Press,Production-C,2025-12-22 15:49,Sanjay Yadav,Temperature spike during peak load. Investigation needed.,overheating,0,0,monitoring,pump,28000,2040,30040,Medium,Afternoon
+M7,Hydraulic Press,Production-C,2025-12-22 17:49,Manoj Tiwari,Coupling misalignment corrected.,mechanical,29,24166,inspection,motor,45000,2357,71523,Medium,Afternoon
+M1,CNC Machine,Production-A,2025-12-22 17:49,Ankit Verma,Shaft wobble observed. Detailed inspection needed. Issue again.,mechanical,0,0,temporary_fix,pump,28000,2074,30074,High,Afternoon
+M1,CNC Machine,Production-A,2025-12-23 01:49,Rahul Gupta,Abnormal vibration observed. Bearing checked. Issue again.,vibration,108,81000,monitoring,motor,45000,1734,127734,High,Night
+M2,CNC Machine,Production-A,2025-12-23 02:49,Rahul Gupta,Air in hydraulic system. Bleeding done. Issue again.,hydraulic,48,36000,adjustment,,0,1716,37716,Medium,Night
+M9,Conveyor System,Assembly,2025-12-23 03:49,Ankit Verma,Circuit breaker tripped twice. Load checked. Issue again.,electrical,0,0,monitoring,filter,2800,2073,4873,Low,Night
+M10,Air Compressor,Utility,2025-12-23 09:49,Rajesh Kumar,Electrical connection loose. Tightened and tested.,electrical,0,0,temporary_fix,bearing,8500,2498,10998,Low,Morning
+M2,CNC Machine,Production-A,2025-12-23 10:49,Sanjay Yadav,Temperature spike during peak load. Investigation needed.,overheating,0,0,adjustment,bearing,8500,2105,10605,Medium,Morning
+M3,Lathe Machine,Production-B,2025-12-23 10:49,Vijay Kumar,Excessive vibration in machine. Temporary adjustment done. Issue again.,vibration,161,93916,adjustment,motor,45000,2137,141053,High,Morning
+M3,Lathe Machine,Production-B,2025-12-23 15:49,Priya Patel,Belt tension adjusted. Wear visible. Issue again.,mechanical,0,0,monitoring,motor,45000,2466,47466,High,Afternoon
+M10,Air Compressor,Utility,2025-12-24 11:49,Manoj Tiwari,Lubrication system leak. Temporary seal applied.,lubrication,5,2500,adjustment,bearing,8500,2003,13003,Low,Morning
+M5,Milling Machine,Production-A,2025-12-25 12:49,Suresh Reddy,Overheating detected. Temporary cooling applied.,overheating,109,72666,part_replacement,seal,1500,1086,75252,Medium,Morning
+M6,Hydraulic Press,Production-C,2025-12-25 13:49,Manoj Tiwari,Belt tension adjusted. Wear visible. Issue again.,mechanical,168,140000,monitoring,,0,1830,141830,Critical,Morning
+M6,Hydraulic Press,Production-C,2025-12-26 04:49,Deepak Singh,Hydraulic pressure drop. Pump checked.,hydraulic,53,44166,temporary_fix,seal,1500,2178,47844,High,Night
+M6,Hydraulic Press,Production-C,2025-12-26 06:49,Sanjay Yadav,Overheating detected. Temporary cooling applied.,overheating,0,0,adjustment,motor,45000,1492,46492,Critical,Morning
+M4,Lathe Machine,Production-B,2025-12-26 09:49,Manoj Tiwari,Lubrication system leak. Temporary seal applied. Issue again.,lubrication,39,22750,part_replacement,seal,1500,812,25062,Low,Morning
+M6,Hydraulic Press,Production-C,2025-12-26 11:49,Rajesh Kumar,Shaft wobble observed. Detailed inspection needed.,mechanical,0,0,adjustment,motor,45000,1948,46948,High,Morning
+M4,Lathe Machine,Production-B,2025-12-27 13:49,Ankit Verma,Circuit breaker tripped twice. Load checked.,electrical,0,0,temporary_fix,filter,2800,1477,4277,Low,Morning
+M7,Hydraulic Press,Production-C,2025-12-27 14:49,Priya Patel,Vibration level increasing. Bearing replacement needed. Issue again.,vibration,0,0,adjustment,,0,1759,1759,Medium,Afternoon
+M6,Hydraulic Press,Production-C,2025-12-27 15:49,Priya Patel,Motor hotter than normal. Cooling system checked. Issue again.,overheating,0,0,monitoring,motor,45000,1646,46646,Critical,Afternoon
+M3,Lathe Machine,Production-B,2025-12-28 04:49,Priya Patel,Motor running hot. Ventilation cleared. Issue again.,overheating,94,54833,adjustment,seal,1500,1142,57475,Medium,Night
+M1,CNC Machine,Production-A,2025-12-28 10:49,Sanjay Yadav,Abnormal vibration near shaft. Alignment checked. Issue again.,vibration,162,121500,part_replacement,valve,6500,2024,130024,Medium,Morning
+M1,CNC Machine,Production-A,2025-12-29 10:49,Ankit Verma,Shaft wobble observed. Detailed inspection needed.,mechanical,47,35250,adjustment,seal,1500,2397,39147,High,Morning
+M1,CNC Machine,Production-A,2025-12-29 13:49,Ankit Verma,Overheating detected. Temporary cooling applied. Issue again.,overheating,106,79500,temporary_fix,bearing,8500,2482,90482,High,Morning
+M8,Welding Robot,Assembly,2025-12-30 10:49,Amit Sharma,Lubrication system leak. Temporary seal applied.,lubrication,0,0,inspection,bearing,8500,2474,10974,Medium,Morning
+M1,CNC Machine,Production-A,2025-12-30 10:49,Suresh Reddy,Belt tension adjusted. Wear visible.,mechanical,0,0,inspection,,0,1898,1898,High,Morning
+M2,CNC Machine,Production-A,2025-12-30 13:49,Priya Patel,Excessive vibration in machine. Temporary adjustment done.,vibration,0,0,inspection,,0,1279,1279,Low,Morning
+M4,Lathe Machine,Production-B,2025-12-31 01:49,Suresh Reddy,Motor hotter than normal. Cooling system checked.,overheating,25,14583,part_replacement,belt,3200,1025,18808,Low,Night
+M3,Lathe Machine,Production-B,2025-12-31 07:49,Rajesh Kumar,Abnormal vibration near shaft. Alignment checked. Issue again.,vibration,47,27416,monitoring,pump,28000,1579,56995,High,Morning
+M5,Milling Machine,Production-A,2025-12-31 08:49,Ankit Verma,Circuit breaker tripped twice. Load checked. Issue again.,electrical,0,0,adjustment,seal,1500,1880,3380,Medium,Morning
+M2,CNC Machine,Production-A,2026-01-01 06:49,Deepak Singh,Overheating detected. Temporary cooling applied. Issue again.,overheating,0,0,monitoring,bearing,8500,2436,10936,Medium,Morning
+M2,CNC Machine,Production-A,2026-01-01 06:49,Vijay Kumar,Coupling misalignment corrected. Issue again.,mechanical,119,89250,monitoring,,0,1771,91021,Medium,Morning
+M7,Hydraulic Press,Production-C,2026-01-01 07:49,Vijay Kumar,Abnormal vibration observed. Bearing checked. Issue again.,vibration,151,125833,temporary_fix,bearing,8500,2416,136749,High,Morning
+M10,Air Compressor,Utility,2026-01-01 09:49,Rajesh Kumar,Shaft wobble observed. Detailed inspection needed.,mechanical,0,0,inspection,belt,3200,1866,5066,Medium,Morning
+M7,Hydraulic Press,Production-C,2026-01-01 12:49,Deepak Singh,Vibration level increasing. Bearing replacement needed.,vibration,35,29166,temporary_fix,motor,45000,1439,75605,High,Morning
+M8,Welding Robot,Assembly,2026-01-02 17:49,Deepak Singh,Power fluctuation observed. Wiring inspected.,electrical,14,8866,temporary_fix,seal,1500,1580,11946,Medium,Afternoon
+M3,Lathe Machine,Production-B,2026-01-03 15:49,Priya Patel,Coupling misalignment corrected. Issue again.,mechanical,125,72916,monitoring,,0,1604,74520,Medium,Afternoon
+M5,Milling Machine,Production-A,2026-01-04 06:49,Sanjay Yadav,Bearing lubrication insufficient. Maintenance scheduled.,lubrication,14,9333,adjustment,filter,2800,1498,13631,Medium,Morning
+M1,CNC Machine,Production-A,2026-01-04 08:49,Rajesh Kumar,Belt tension adjusted. Wear visible. Issue again.,mechanical,80,60000,temporary_fix,pump,28000,2081,90081,High,Morning
+M6,Hydraulic Press,Production-C,2026-01-04 10:49,Suresh Reddy,Shaft wobble observed. Detailed inspection needed.,mechanical,98,81666,part_replacement,,0,1553,83219,High,Morning
+M6,Hydraulic Press,Production-C,2026-01-04 14:49,Rajesh Kumar,Abnormal vibration observed. Bearing checked. Issue again.,vibration,48,40000,part_replacement,,0,1636,41636,High,Afternoon
+M7,Hydraulic Press,Production-C,2026-01-04 17:49,Deepak Singh,Coupling misalignment corrected. Issue again.,mechanical,0,0,monitoring,valve,6500,2450,8950,High,Afternoon
+M3,Lathe Machine,Production-B,2026-01-06 15:49,Deepak Singh,Vibration level increasing. Bearing replacement needed. Issue again.,vibration,115,67083,inspection,valve,6500,1692,75275,High,Afternoon
+M6,Hydraulic Press,Production-C,2026-01-08 01:49,Suresh Reddy,Excessive vibration in machine. Temporary adjustment done.,vibration,53,44166,temporary_fix,pump,28000,2081,74247,High,Night
+M8,Welding Robot,Assembly,2026-01-08 02:49,Amit Sharma,Temperature spike during peak load. Investigation needed.,overheating,0,0,adjustment,bearing,8500,1627,10127,Medium,Night
+M10,Air Compressor,Utility,2026-01-08 08:49,Suresh Reddy,Power fluctuation observed. Wiring inspected.,electrical,47,23500,part_replacement,,0,1084,24584,Low,Morning
+M9,Conveyor System,Assembly,2026-01-08 09:49,Vijay Kumar,Hydraulic pressure drop. Pump checked.,hydraulic,41,17083,temporary_fix,,0,1610,18693,Low,Morning
+M2,CNC Machine,Production-A,2026-01-10 04:49,Amit Sharma,Bearing lubrication insufficient. Maintenance scheduled. Issue again.,lubrication,0,0,monitoring,filter,2800,2165,4965,Low,Night
+M3,Lathe Machine,Production-B,2026-01-10 05:49,Rajesh Kumar,Coupling misalignment corrected.,mechanical,130,75833,temporary_fix,seal,1500,899,78232,High,Night
+M9,Conveyor System,Assembly,2026-01-10 09:49,Rahul Gupta,Abnormal vibration near shaft. Alignment checked. Issue again.,vibration,9,3750,monitoring,filter,2800,1716,8266,Low,Morning
+M3,Lathe Machine,Production-B,2026-01-10 13:49,Suresh Reddy,Shaft wobble observed. Detailed inspection needed.,mechanical,146,85166,monitoring,,0,1820,86986,High,Morning
+M7,Hydraulic Press,Production-C,2026-01-11 01:49,Sanjay Yadav,Excessive vibration in machine. Temporary adjustment done.,vibration,22,18333,inspection,seal,1500,1461,21294,Medium,Night
+M5,Milling Machine,Production-A,2026-01-11 03:49,Rajesh Kumar,Hydraulic oil leak. Seal replaced.,hydraulic,49,32666,adjustment,seal,1500,1584,35750,Medium,Night
+M10,Air Compressor,Utility,2026-01-11 11:49,Deepak Singh,Voltage irregularity detected. Under observation. Issue again.,electrical,0,0,part_replacement,seal,1500,2073,3573,Low,Morning
+M6,Hydraulic Press,Production-C,2026-01-11 13:49,Manoj Tiwari,Belt tension adjusted. Wear visible. Issue again.,mechanical,32,26666,part_replacement,pump,28000,1865,56531,Critical,Morning
+M4,Lathe Machine,Production-B,2026-01-12 06:49,Suresh Reddy,Excessive vibration in machine. Temporary adjustment done. Issue again.,vibration,10,5833,temporary_fix,filter,2800,968,9601,Medium,Morning
+M6,Hydraulic Press,Production-C,2026-01-12 13:49,Ankit Verma,Motor running hot. Ventilation cleared. Issue again.,overheating,0,0,adjustment,motor,45000,1007,46007,Critical,Morning
+M7,Hydraulic Press,Production-C,2026-01-13 13:49,Suresh Reddy,Motor running hot. Ventilation cleared. Issue again.,overheating,139,115833,part_replacement,bearing,8500,1568,125901,High,Morning
+M7,Hydraulic Press,Production-C,2026-01-13 14:49,Vijay Kumar,Motor hotter than normal. Cooling system checked.,overheating,0,0,inspection,valve,6500,2120,8620,Medium,Afternoon
+M3,Lathe Machine,Production-B,2026-01-13 17:49,Rajesh Kumar,Abnormal vibration observed. Bearing checked.,vibration,121,70583,part_replacement,,0,917,71500,High,Afternoon
+M7,Hydraulic Press,Production-C,2026-01-14 04:49,Rahul Gupta,Shaft wobble observed. Detailed inspection needed.,mechanical,166,138333,adjustment,bearing,8500,1567,148400,High,Night
+M7,Hydraulic Press,Production-C,2026-01-14 04:49,Ankit Verma,Shaft wobble observed. Detailed inspection needed. Issue again.,mechanical,22,18333,monitoring,,0,1645,19978,Medium,Night
+M1,CNC Machine,Production-A,2026-01-14 13:49,Sanjay Yadav,Coupling misalignment corrected.,mechanical,0,0,adjustment,,0,1942,1942,High,Morning
+M7,Hydraulic Press,Production-C,2026-01-14 16:49,Rajesh Kumar,Temperature spike during peak load. Investigation needed. Issue again.,overheating,135,112500,part_replacement,pump,28000,1863,142363,Medium,Afternoon
+M7,Hydraulic Press,Production-C,2026-01-15 02:49,Vijay Kumar,Vibration level increasing. Bearing replacement needed.,vibration,37,30833,adjustment,seal,1500,1766,34099,High,Night
+M7,Hydraulic Press,Production-C,2026-01-15 15:49,Suresh Reddy,Abnormal vibration near shaft. Alignment checked. Issue again.,vibration,131,109166,adjustment,motor,45000,835,155001,High,Afternoon
+M2,CNC Machine,Production-A,2026-01-16 08:49,Ankit Verma,Bearing noise detected. Replacement recommended.,mechanical,100,75000,part_replacement,belt,3200,933,79133,Medium,Morning
+M9,Conveyor System,Assembly,2026-01-16 13:49,Suresh Reddy,Motor running hot. Ventilation cleared.,overheating,10,4166,inspection,filter,2800,872,7838,Low,Morning
+M7,Hydraulic Press,Production-C,2026-01-17 03:49,Manoj Tiwari,Vibration level increasing. Bearing replacement needed. Issue again.,vibration,64,53333,part_replacement,motor,45000,1656,99989,High,Night
+M7,Hydraulic Press,Production-C,2026-01-17 05:49,Manoj Tiwari,Temperature spike during peak load. Investigation needed. Issue again.,overheating,57,47500,inspection,,0,1316,48816,High,Night
+M1,CNC Machine,Production-A,2026-01-17 11:49,Suresh Reddy,Motor running hot. Ventilation cleared.,overheating,137,102750,adjustment,motor,45000,2453,150203,Medium,Morning
+M7,Hydraulic Press,Production-C,2026-01-17 12:49,Rajesh Kumar,Belt tension adjusted. Wear visible. Issue again.,mechanical,0,0,part_replacement,motor,45000,1631,46631,Medium,Morning
+M5,Milling Machine,Production-A,2026-01-18 02:49,Manoj Tiwari,Lubrication system leak. Temporary seal applied.,lubrication,19,12666,monitoring,seal,1500,1139,15305,Low,Night
+M4,Lathe Machine,Production-B,2026-01-18 13:49,Rajesh Kumar,Coupling misalignment corrected.,mechanical,0,0,adjustment,seal,1500,1096,2596,Low,Morning
+M9,Conveyor System,Assembly,2026-01-18 14:49,Rajesh Kumar,Overheating detected. Temporary cooling applied. Issue again.,overheating,0,0,temporary_fix,,0,883,883,Medium,Afternoon
+M5,Milling Machine,Production-A,2026-01-19 04:49,Sanjay Yadav,Voltage irregularity detected. Under observation.,electrical,66,44000,monitoring,filter,2800,1051,47851,Medium,Night
+M1,CNC Machine,Production-A,2026-01-19 05:49,Sanjay Yadav,Motor hotter than normal. Cooling system checked. Issue again.,overheating,0,0,adjustment,bearing,8500,1412,9912,High,Night
+M3,Lathe Machine,Production-B,2026-01-19 14:49,Deepak Singh,Temperature spike during peak load. Investigation needed. Issue again.,overheating,0,0,inspection,valve,6500,2464,8964,Medium,Afternoon
+M1,CNC Machine,Production-A,2026-01-20 11:49,Ankit Verma,Overheating detected. Temporary cooling applied. Issue again.,overheating,38,28500,part_replacement,pump,28000,1849,58349,Medium,Morning
+M6,Hydraulic Press,Production-C,2026-01-21 11:49,Suresh Reddy,Motor hotter than normal. Cooling system checked.,overheating,237,197500,inspection,seal,1500,1177,200177,High,Morning
+M1,CNC Machine,Production-A,2026-01-21 11:49,Sanjay Yadav,Temperature spike during peak load. Investigation needed. Issue again.,overheating,0,0,adjustment,bearing,8500,2028,10528,High,Morning
+M7,Hydraulic Press,Production-C,2026-01-21 12:49,Priya Patel,Coupling misalignment corrected.,mechanical,0,0,temporary_fix,,0,1961,1961,High,Morning
+M3,Lathe Machine,Production-B,2026-01-22 01:49,Rahul Gupta,Excessive vibration in machine. Temporary adjustment done. Issue again.,vibration,95,55416,temporary_fix,motor,45000,1551,101967,High,Night
+M5,Milling Machine,Production-A,2026-01-22 09:49,Amit Sharma,Oil contamination found. Partial replacement done.,lubrication,0,0,adjustment,seal,1500,2219,3719,Medium,Morning
+M2,CNC Machine,Production-A,2026-01-22 13:49,Rajesh Kumar,Shaft wobble observed. Detailed inspection needed.,mechanical,0,0,temporary_fix,,0,1025,1025,Low,Morning
+M5,Milling Machine,Production-A,2026-01-22 17:49,Ankit Verma,Voltage irregularity detected. Under observation. Issue again.,electrical,116,77333,monitoring,belt,3200,1988,82521,Medium,Afternoon
+M6,Hydraulic Press,Production-C,2026-01-23 03:49,Rajesh Kumar,Shaft wobble observed. Detailed inspection needed. Issue again.,mechanical,30,25000,part_replacement,bearing,8500,1596,35096,High,Night
+M1,CNC Machine,Production-A,2026-01-23 03:49,Rahul Gupta,Excessive vibration in machine. Temporary adjustment done. Issue again.,vibration,0,0,monitoring,seal,1500,1404,2904,High,Night
+M6,Hydraulic Press,Production-C,2026-01-23 04:49,Amit Sharma,Hydraulic oil leak. Seal replaced. Issue again.,hydraulic,0,0,temporary_fix,pump,28000,1199,29199,Critical,Night
+M7,Hydraulic Press,Production-C,2026-01-24 17:49,Rahul Gupta,Excessive vibration in machine. Temporary adjustment done. Issue again.,vibration,93,77500,monitoring,seal,1500,2481,81481,High,Afternoon
+M1,CNC Machine,Production-A,2026-01-25 02:49,Rahul Gupta,Motor hotter than normal. Cooling system checked. Issue again.,overheating,0,0,temporary_fix,bearing,8500,1886,10386,High,Night
+M6,Hydraulic Press,Production-C,2026-01-25 11:49,Suresh Reddy,Excessive vibration in machine. Temporary adjustment done. Issue again.,vibration,0,0,part_replacement,valve,6500,2213,8713,High,Morning
+M3,Lathe Machine,Production-B,2026-01-25 13:49,Suresh Reddy,Coupling misalignment corrected.,mechanical,0,0,temporary_fix,,0,1400,1400,Medium,Morning
+M10,Air Compressor,Utility,2026-01-25 14:49,Suresh Reddy,Voltage irregularity detected. Under observation.,electrical,0,0,inspection,,0,1758,1758,Low,Afternoon
+M7,Hydraulic Press,Production-C,2026-01-26 02:49,Sanjay Yadav,Coupling misalignment corrected. Issue again.,mechanical,160,133333,adjustment,seal,1500,2261,137094,High,Night
+M6,Hydraulic Press,Production-C,2026-01-26 05:49,Manoj Tiwari,Abnormal vibration near shaft. Alignment checked.,vibration,62,51666,adjustment,motor,45000,1968,98634,High,Night
+M2,CNC Machine,Production-A,2026-01-26 06:49,Suresh Reddy,Circuit breaker tripped twice. Load checked.,electrical,0,0,adjustment,,0,1284,1284,Medium,Morning
+M3,Lathe Machine,Production-B,2026-01-26 12:49,Manoj Tiwari,Motor hotter than normal. Cooling system checked. Issue again.,overheating,168,98000,adjustment,,0,1409,99409,Medium,Morning
+M3,Lathe Machine,Production-B,2026-01-27 06:49,Vijay Kumar,Coupling misalignment corrected. Issue again.,mechanical,122,71166,adjustment,bearing,8500,1751,81417,Medium,Morning
+M7,Hydraulic Press,Production-C,2026-01-27 07:49,Suresh Reddy,Overheating detected. Temporary cooling applied. Issue again.,overheating,0,0,adjustment,pump,28000,909,28909,High,Morning
+M6,Hydraulic Press,Production-C,2026-01-27 07:49,Amit Sharma,Motor hotter than normal. Cooling system checked. Issue again.,overheating,48,40000,adjustment,bearing,8500,1324,49824,High,Morning
+M7,Hydraulic Press,Production-C,2026-01-27 14:49,Ankit Verma,Abnormal vibration near shaft. Alignment checked. Issue again.,vibration,0,0,adjustment,valve,6500,1762,8262,High,Afternoon
+M3,Lathe Machine,Production-B,2026-01-27 17:49,Deepak Singh,Shaft wobble observed. Detailed inspection needed. Issue again.,mechanical,0,0,adjustment,,0,2046,2046,High,Afternoon
+M3,Lathe Machine,Production-B,2026-01-28 11:49,Priya Patel,Abnormal vibration near shaft. Alignment checked. Issue again.,vibration,155,90416,adjustment,bearing,8500,1987,100903,High,Morning
+M8,Welding Robot,Assembly,2026-01-29 02:49,Sanjay Yadav,Lubrication system leak. Temporary seal applied.,lubrication,41,25966,monitoring,,0,819,26785,Medium,Night
+M6,Hydraulic Press,Production-C,2026-01-29 08:49,Vijay Kumar,Motor hotter than normal. Cooling system checked.,overheating,59,49166,inspection,valve,6500,1170,56836,Critical,Morning
+M5,Milling Machine,Production-A,2026-01-29 17:49,Priya Patel,Voltage irregularity detected. Under observation. Issue again.,electrical,0,0,inspection,belt,3200,2053,5253,Medium,Afternoon
+M3,Lathe Machine,Production-B,2026-01-30 05:49,Amit Sharma,Motor hotter than normal. Cooling system checked. Issue again.,overheating,0,0,adjustment,seal,1500,1728,3228,Medium,Night
+M3,Lathe Machine,Production-B,2026-01-30 14:49,Priya Patel,Excessive vibration in machine. Temporary adjustment done. Issue again.,vibration,82,47833,inspection,,0,2499,50332,High,Afternoon
+M6,Hydraulic Press,Production-C,2026-01-30 16:49,Deepak Singh,Coupling misalignment corrected. Issue again.,mechanical,62,51666,adjustment,bearing,8500,1562,61728,High,Afternoon
+M7,Hydraulic Press,Production-C,2026-01-31 07:49,Vijay Kumar,Excessive vibration in machine. Temporary adjustment done. Issue again.,vibration,71,59166,temporary_fix,bearing,8500,1388,69054,Medium,Morning
+M8,Welding Robot,Assembly,2026-01-31 10:49,Suresh Reddy,Pressure unstable. Filter cleaned.,hydraulic,0,0,temporary_fix,bearing,8500,1545,10045,Low,Morning
+M6,Hydraulic Press,Production-C,2026-01-31 10:49,Priya Patel,Abnormal vibration near shaft. Alignment checked.,vibration,164,136666,monitoring,pump,28000,1537,166203,High,Morning
+M1,CNC Machine,Production-A,2026-01-31 16:49,Manoj Tiwari,Motor hotter than normal. Cooling system checked. Issue again.,overheating,53,39750,part_replacement,valve,6500,1628,47878,High,Afternoon
+M6,Hydraulic Press,Production-C,2026-02-01 11:49,Suresh Reddy,Bearing noise detected. Replacement recommended. Issue again.,mechanical,0,0,inspection,seal,1500,2239,3739,Critical,Morning
+M2,CNC Machine,Production-A,2026-02-01 15:49,Sanjay Yadav,Low lubrication level. Oil added. Issue again.,lubrication,25,18750,part_replacement,filter,2800,1649,23199,Medium,Afternoon
+M4,Lathe Machine,Production-B,2026-02-02 08:49,Manoj Tiwari,Excessive vibration in machine. Temporary adjustment done.,vibration,25,14583,temporary_fix,belt,3200,2230,20013,Low,Morning
+M6,Hydraulic Press,Production-C,2026-02-02 16:49,Ankit Verma,Coupling misalignment corrected. Issue again.,mechanical,114,95000,temporary_fix,valve,6500,1661,103161,High,Afternoon
+M3,Lathe Machine,Production-B,2026-02-03 02:49,Amit Sharma,Bearing noise detected. Replacement recommended. Issue again.,mechanical,0,0,temporary_fix,bearing,8500,1626,10126,High,Night
+M8,Welding Robot,Assembly,2026-02-03 10:49,Suresh Reddy,Air in hydraulic system. Bleeding done.,hydraulic,0,0,monitoring,seal,1500,1301,2801,Medium,Morning
+M3,Lathe Machine,Production-B,2026-02-03 13:49,Suresh Reddy,Abnormal vibration near shaft. Alignment checked. Issue again.,vibration,180,105000,adjustment,pump,28000,1983,134983,High,Morning
+M7,Hydraulic Press,Production-C,2026-02-03 15:49,Vijay Kumar,Temperature spike during peak load. Investigation needed. Issue again.,overheating,0,0,temporary_fix,seal,1500,1411,2911,Medium,Afternoon
+M1,CNC Machine,Production-A,2026-02-04 07:49,Amit Sharma,Abnormal vibration observed. Bearing checked.,vibration,158,118500,part_replacement,motor,45000,1388,164888,Medium,Morning
+M6,Hydraulic Press,Production-C,2026-02-05 11:49,Rahul Gupta,Overheating detected. Temporary cooling applied.,overheating,58,48333,part_replacement,bearing,8500,895,57728,High,Morning
+M6,Hydraulic Press,Production-C,2026-02-05 16:49,Ankit Verma,Temperature spike during peak load. Investigation needed.,overheating,138,114999,part_replacement,,0,1592,116591,High,Afternoon
+M8,Welding Robot,Assembly,2026-02-06 11:49,Rahul Gupta,Lubrication system leak. Temporary seal applied.,lubrication,55,34833,inspection,bearing,8500,2240,45573,Low,Morning
+M3,Lathe Machine,Production-B,2026-02-06 11:49,Suresh Reddy,Temperature spike during peak load. Investigation needed. Issue again.,overheating,43,25083,adjustment,motor,45000,1501,71584,Medium,Morning
+M6,Hydraulic Press,Production-C,2026-02-06 15:49,Rahul Gupta,Excessive vibration in machine. Temporary adjustment done. Issue again.,vibration,112,93333,part_replacement,pump,28000,1298,122631,High,Afternoon
+M8,Welding Robot,Assembly,2026-02-07 13:49,Rajesh Kumar,Air in hydraulic system. Bleeding done.,hydraulic,13,8233,inspection,bearing,8500,2034,18767,Medium,Morning
+M1,CNC Machine,Production-A,2026-02-07 14:49,Rahul Gupta,Bearing noise detected. Replacement recommended. Issue again.,mechanical,81,60750,adjustment,motor,45000,815,106565,High,Afternoon
+M10,Air Compressor,Utility,2026-02-07 15:49,Priya Patel,Temperature spike during peak load. Investigation needed. Issue again.,overheating,0,0,adjustment,belt,3200,1845,5045,Medium,Afternoon
+M7,Hydraulic Press,Production-C,2026-02-07 17:49,Deepak Singh,Motor hotter than normal. Cooling system checked.,overheating,0,0,adjustment,valve,6500,2070,8570,High,Afternoon
+M8,Welding Robot,Assembly,2026-02-08 05:49,Rajesh Kumar,Bearing lubrication insufficient. Maintenance scheduled. Issue again.,lubrication,0,0,adjustment,,0,1588,1588,Medium,Night
+M1,CNC Machine,Production-A,2026-02-08 05:49,Rahul Gupta,Temperature spike during peak load. Investigation needed.,overheating,38,28500,monitoring,valve,6500,2262,37262,Medium,Night
+M6,Hydraulic Press,Production-C,2026-02-08 11:49,Ankit Verma,Belt tension adjusted. Wear visible.,mechanical,85,70833,part_replacement,pump,28000,1188,100021,High,Morning
+M1,CNC Machine,Production-A,2026-02-08 13:49,Amit Sharma,Coupling misalignment corrected.,mechanical,91,68250,part_replacement,,0,1213,69463,Medium,Morning
+M9,Conveyor System,Assembly,2026-02-09 06:49,Priya Patel,Power fluctuation observed. Wiring inspected. Issue again.,electrical,8,3333,temporary_fix,filter,2800,1852,7985,Medium,Morning
+M6,Hydraulic Press,Production-C,2026-02-09 12:49,Deepak Singh,Pressure unstable. Filter cleaned. Issue again.,hydraulic,0,0,temporary_fix,bearing,8500,1614,10114,High,Morning
+M10,Air Compressor,Utility,2026-02-10 06:49,Amit Sharma,Hydraulic oil leak. Seal replaced. Issue again.,hydraulic,36,18000,temporary_fix,filter,2800,1988,22788,Medium,Morning
+M6,Hydraulic Press,Production-C,2026-02-10 09:49,Deepak Singh,Overheating detected. Temporary cooling applied.,overheating,150,125000,temporary_fix,,0,1414,126414,Critical,Morning
+M3,Lathe Machine,Production-B,2026-02-11 02:49,Rajesh Kumar,Shaft wobble observed. Detailed inspection needed.,mechanical,100,58333,monitoring,motor,45000,1063,104396,Medium,Night
+M8,Welding Robot,Assembly,2026-02-11 11:49,Ankit Verma,Hydraulic oil leak. Seal replaced. Issue again.,hydraulic,79,50033,part_replacement,,0,1670,51703,Medium,Morning
+M1,CNC Machine,Production-A,2026-02-11 12:49,Rajesh Kumar,Motor running hot. Ventilation cleared. Issue again.,overheating,170,127500,part_replacement,seal,1500,1307,130307,Medium,Morning
+M2,CNC Machine,Production-A,2026-02-11 13:49,Ankit Verma,Excessive vibration in machine. Temporary adjustment done.,vibration,0,0,part_replacement,,0,1113,1113,Medium,Morning
+M6,Hydraulic Press,Production-C,2026-02-11 17:49,Suresh Reddy,Belt tension adjusted. Wear visible.,mechanical,152,126666,adjustment,motor,45000,2320,173986,Critical,Afternoon
+M5,Milling Machine,Production-A,2026-02-12 03:49,Vijay Kumar,Motor hotter than normal. Cooling system checked.,overheating,0,0,inspection,,0,1069,1069,Low,Night
+M6,Hydraulic Press,Production-C,2026-02-12 07:49,Amit Sharma,Abnormal vibration near shaft. Alignment checked. Issue again.,vibration,0,0,part_replacement,pump,28000,1304,29304,Critical,Morning
+M3,Lathe Machine,Production-B,2026-02-13 01:49,Rahul Gupta,Belt tension adjusted. Wear visible. Issue again.,mechanical,167,97416,part_replacement,bearing,8500,2370,108286,High,Night
+M3,Lathe Machine,Production-B,2026-02-13 06:49,Manoj Tiwari,Belt tension adjusted. Wear visible.,mechanical,26,15166,adjustment,seal,1500,2380,19046,High,Morning
+M6,Hydraulic Press,Production-C,2026-02-13 17:49,Deepak Singh,Motor running hot. Ventilation cleared.,overheating,240,200000,monitoring,pump,28000,1815,229815,High,Afternoon
+M6,Hydraulic Press,Production-C,2026-02-14 01:49,Rahul Gupta,Overheating detected. Temporary cooling applied.,overheating,170,141666,adjustment,pump,28000,940,170606,High,Night
+M6,Hydraulic Press,Production-C,2026-02-14 08:49,Amit Sharma,Hydraulic pressure drop. Pump checked. Issue again.,hydraulic,206,171666,part_replacement,valve,6500,1193,179359,High,Morning
+M1,CNC Machine,Production-A,2026-02-14 12:49,Suresh Reddy,Abnormal vibration near shaft. Alignment checked. Issue again.,vibration,0,0,adjustment,valve,6500,1148,7648,High,Morning
+M7,Hydraulic Press,Production-C,2026-02-15 07:49,Sanjay Yadav,Bearing noise detected. Replacement recommended. Issue again.,mechanical,0,0,part_replacement,motor,45000,847,45847,High,Morning
+M6,Hydraulic Press,Production-C,2026-02-15 13:49,Sanjay Yadav,Bearing noise detected. Replacement recommended.,mechanical,128,106666,monitoring,seal,1500,1493,109659,High,Morning
+M2,CNC Machine,Production-A,2026-02-15 16:49,Sanjay Yadav,Hydraulic pressure drop. Pump checked.,hydraulic,21,15749,inspection,filter,2800,2237,20786,Medium,Afternoon
+M1,CNC Machine,Production-A,2026-02-16 07:49,Sanjay Yadav,Shaft wobble observed. Detailed inspection needed. Issue again.,mechanical,173,129750,part_replacement,valve,6500,1169,137419,High,Morning
+M5,Milling Machine,Production-A,2026-02-16 09:49,Amit Sharma,Coupling misalignment corrected.,mechanical,85,56666,monitoring,seal,1500,1719,59885,Medium,Morning
+M8,Welding Robot,Assembly,2026-02-16 13:49,Suresh Reddy,Air in hydraulic system. Bleeding done.,hydraulic,0,0,temporary_fix,,0,2346,2346,Medium,Morning
+M1,CNC Machine,Production-A,2026-02-16 16:49,Rahul Gupta,Motor hotter than normal. Cooling system checked.,overheating,71,53250,part_replacement,motor,45000,2034,100284,High,Afternoon
+M10,Air Compressor,Utility,2026-02-17 03:49,Priya Patel,Pressure unstable. Filter cleaned.,hydraulic,50,25000,inspection,bearing,8500,2321,35821,Low,Night
+M4,Lathe Machine,Production-B,2026-02-17 03:49,Ankit Verma,Belt tension adjusted. Wear visible.,mechanical,7,4083,adjustment,bearing,8500,1070,13653,Medium,Night
+M1,CNC Machine,Production-A,2026-02-17 10:49,Rahul Gupta,Temperature spike during peak load. Investigation needed.,overheating,76,57000,part_replacement,bearing,8500,1826,67326,Medium,Morning
+M2,CNC Machine,Production-A,2026-02-17 11:49,Vijay Kumar,Shaft wobble observed. Detailed inspection needed.,mechanical,41,30750,adjustment,,0,1284,32034,Medium,Morning
+M1,CNC Machine,Production-A,2026-02-18 03:49,Vijay Kumar,Coupling misalignment corrected.,mechanical,126,94500,monitoring,motor,45000,1246,140746,High,Night
+M5,Milling Machine,Production-A,2026-02-18 08:49,Rahul Gupta,Motor running hot. Ventilation cleared. Issue again.,overheating,106,70666,adjustment,seal,1500,1642,73808,Medium,Morning
+M1,CNC Machine,Production-A,2026-02-18 17:49,Priya Patel,Overheating detected. Temporary cooling applied. Issue again.,overheating,148,111000,temporary_fix,valve,6500,2262,119762,Medium,Afternoon
+M4,Lathe Machine,Production-B,2026-02-18 17:49,Ankit Verma,Bearing noise detected. Replacement recommended.,mechanical,0,0,inspection,filter,2800,1179,3979,Low,Afternoon
+M3,Lathe Machine,Production-B,2026-02-19 14:49,Deepak Singh,Bearing noise detected. Replacement recommended.,mechanical,74,43166,part_replacement,seal,1500,1749,46415,High,Afternoon
+M7,Hydraulic Press,Production-C,2026-02-19 15:49,Amit Sharma,Bearing noise detected. Replacement recommended. Issue again.,mechanical,91,75833,temporary_fix,valve,6500,1729,84062,High,Afternoon
+M2,CNC Machine,Production-A,2026-02-20 05:49,Priya Patel,Hydraulic oil leak. Seal replaced.,hydraulic,0,0,part_replacement,,0,1365,1365,Low,Night
+M5,Milling Machine,Production-A,2026-02-21 08:49,Priya Patel,Coupling misalignment corrected.,mechanical,0,0,inspection,seal,1500,1585,3085,Medium,Morning
+M10,Air Compressor,Utility,2026-02-22 12:49,Amit Sharma,Hydraulic oil leak. Seal replaced.,hydraulic,0,0,adjustment,belt,3200,1070,4270,Low,Morning
+M10,Air Compressor,Utility,2026-02-26 03:49,Deepak Singh,Hydraulic pressure drop. Pump checked.,hydraulic,13,6500,adjustment,,0,967,7467,Low,Night
+M10,Air Compressor,Utility,2026-02-26 11:49,Priya Patel,Hydraulic oil leak. Seal replaced.,hydraulic,0,0,monitoring,belt,3200,864,4064,Low,Morning
+M2,CNC Machine,Production-A,2026-02-27 14:49,Vijay Kumar,Hydraulic oil leak. Seal replaced.,hydraulic,0,0,temporary_fix,,0,1635,1635,Medium,Afternoon
+M9,Conveyor System,Assembly,2026-02-28 04:49,Deepak Singh,Low lubrication level. Oil added.,lubrication,0,0,monitoring,filter,2800,2132,4932,Medium,Night
+M4,Lathe Machine,Production-B,2026-02-28 09:49,Amit Sharma,Air in hydraulic system. Bleeding done.,hydraulic,0,0,adjustment,belt,3200,1784,4984,Medium,Morning
+M5,Milling Machine,Production-A,2026-03-01 01:49,Priya Patel,Hydraulic pressure drop. Pump checked.,hydraulic,0,0,monitoring,filter,2800,1911,4711,Medium,Night
+M9,Conveyor System,Assembly,2026-03-04 17:49,Ankit Verma,Excessive vibration in machine. Temporary adjustment done.,vibration,0,0,temporary_fix,,0,2216,2216,Low,Afternoon
+M5,Milling Machine,Production-A,2026-03-05 14:49,Rahul Gupta,Shaft wobble observed. Detailed inspection needed. Issue again.,mechanical,113,75333,monitoring,belt,3200,2375,80908,Medium,Afternoon
+M9,Conveyor System,Assembly,2026-03-07 02:49,Rahul Gupta,Overheating detected. Temporary cooling applied. Issue again.,overheating,24,10000,monitoring,filter,2800,1982,14782,Low,Night
+M8,Welding Robot,Assembly,2026-03-07 04:49,Ankit Verma,Temperature spike during peak load. Investigation needed.,overheating,110,69666,temporary_fix,filter,2800,997,73463,Medium,Night
+M8,Welding Robot,Assembly,2026-03-09 16:49,Rahul Gupta,Circuit breaker tripped twice. Load checked.,electrical,0,0,inspection,seal,1500,1584,3084,Low,Afternoon
+M8,Welding Robot,Assembly,2026-03-10 05:49,Ankit Verma,Motor hotter than normal. Cooling system checked. Issue again.,overheating,0,0,monitoring,filter,2800,2357,5157,Medium,Night
+M8,Welding Robot,Assembly,2026-03-12 02:49,Ankit Verma,Power fluctuation observed. Wiring inspected.,electrical,103,65233,part_replacement,filter,2800,2336,70369,Low,Night
+M10,Air Compressor,Utility,2026-03-12 04:49,Vijay Kumar,Hydraulic oil leak. Seal replaced.,hydraulic,21,10500,inspection,seal,1500,1436,13436,Medium,Night
+M9,Conveyor System,Assembly,2026-03-12 12:49,Suresh Reddy,Bearing noise detected. Replacement recommended. Issue again.,mechanical,0,0,adjustment,bearing,8500,1087,9587,Low,Morning
+M9,Conveyor System,Assembly,2026-03-13 04:49,Rahul Gupta,Excessive vibration in machine. Temporary adjustment done. Issue again.,vibration,0,0,part_replacement,bearing,8500,1786,10286,Medium,Night
+M4,Lathe Machine,Production-B,2026-03-13 09:49,Ankit Verma,Lubrication system leak. Temporary seal applied.,lubrication,30,17500,monitoring,seal,1500,1282,20282,Low,Morning
+M9,Conveyor System,Assembly,2026-03-15 06:49,Rajesh Kumar,Low lubrication level. Oil added.,lubrication,0,0,adjustment,,0,1085,1085,Low,Morning
+M2,CNC Machine,Production-A,2026-03-15 15:49,Manoj Tiwari,Motor running hot. Ventilation cleared.,overheating,82,61500,part_replacement,belt,3200,1835,66535,Medium,Afternoon
+M2,CNC Machine,Production-A,2026-03-17 04:49,Priya Patel,Excessive vibration in machine. Temporary adjustment done. Issue again.,vibration,28,21000,part_replacement,filter,2800,1792,25592,Low,Night
+M5,Milling Machine,Production-A,2026-03-17 09:49,Sanjay Yadav,Bearing noise detected. Replacement recommended. Issue again.,mechanical,81,54000,inspection,seal,1500,1076,56576,Medium,Morning
+M5,Milling Machine,Production-A,2026-03-18 14:49,Sanjay Yadav,Motor running hot. Ventilation cleared. Issue again.,overheating,0,0,inspection,,0,945,945,Medium,Afternoon
+M8,Welding Robot,Assembly,2026-03-20 09:49,Vijay Kumar,Belt tension adjusted. Wear visible.,mechanical,72,45600,adjustment,bearing,8500,2143,56243,Low,Morning
+M2,CNC Machine,Production-A,2026-03-22 07:49,Deepak Singh,Electrical connection loose. Tightened and tested.,electrical,102,76500,inspection,seal,1500,2213,80213,Low,Morning
